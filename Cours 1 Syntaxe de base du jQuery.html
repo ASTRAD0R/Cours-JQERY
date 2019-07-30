@@ -7,7 +7,31 @@
 	</head>
 	<body>
 		<h1>Découverte du Jquery</h1>
+		<p class="para">Un premier paragraphe</p>
+		<p>Un deuxième paragraphe</p>
+
 		<script src='jquery-3.4.1.js'></script> 
+		<script>
+			
+			$(/*selecteur css p ou h1 */'.para' 'p').hide();//.methode() appelle a la librérie jquery
+			$(selecteur).methode1() .methode2() .methode3();// on peu cumuler les méthode
+			
+			window.addEventListener('load', monScript); // methode js
+			function monScript(){	
+			}
+			
+			$(document).ready(function()){
+				//Notre code jQery
+			}
+			
+			//ou
+			
+			$(function()){
+				//methode la plus utiliser 
+			}
+
+
+		</script>
 
 
 	</body>
